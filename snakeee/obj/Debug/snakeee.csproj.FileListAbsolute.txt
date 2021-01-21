@@ -1,0 +1,12 @@
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\bin\Debug\snakeee.exe
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\bin\Debug\snakeee.exe.config
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\obj\Debug\snakeee.csprojResolveAssemblyReference.cache
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\obj\Debug\snakeee.exe
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\obj\Debug\snakeee.pdb
+C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\snakeee\bin\Debug\snakeee.pdb
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.exe.config
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.exe
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.pdb
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.exe
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.pdb
+C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.csprojResolveAssemblyReference.cache
