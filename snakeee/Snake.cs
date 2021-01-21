@@ -155,21 +155,5 @@ namespace snakeee
             }
             return false;
         }
-
-        //internal void MoveFromPortal(Point head, int lenght, Direction direction)
-        //{
-        //    this.direction = direction;//присваеваем текущему экземпляру класса направление (для того, чтобы знать, куда двигаться)
-
-        //    pList = new List<Point>();
-        //    for (int i = 0; i < lenght; i++)
-        //    {
-
-        //        Point p = new Point(head);
-        //        p.Move(i, direction);
-        //        pList.Add(p);
-                
-        //    }
-        //    Thread.Sleep(60);
-        //}
     }
 }

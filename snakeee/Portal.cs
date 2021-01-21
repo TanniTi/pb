@@ -14,8 +14,6 @@ namespace snakeee
             portalList = new List<Figure>();
             if (itX)
             {
-                //HorizontalLine horizontalPortal = new HorizontalLine(start, end, level, '.');
-                //portalList.Add(horizontalPortal);
                 VerticalLine verticalPortal = new VerticalLine(start, end, level, '>');
                 portalList.Add(verticalPortal);
 

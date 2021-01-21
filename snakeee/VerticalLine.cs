@@ -21,11 +21,5 @@ namespace snakeee
             }
         }
 
-        //public override void DrawLine()
-        //{
-        //    //  Console.ForegroundColor = ConsoleColor.Blue;
-        //    base.DrawLine();
-        //    //  Console.ForegroundColor = ConsoleColor.White;
-        //}
     }
 }

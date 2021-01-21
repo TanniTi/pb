@@ -14,7 +14,7 @@ namespace snakeee
         static int score;
         static ConsoleKeyInfo key_enter;
         static int currentRecord;
-        static string path = @"C:\Users\Таня\Documents\Visual Studio 2013\Projects\snakeee\snakeee\record.dat";
+        static string path = @"record.dat";
 
         static void Main(string[] args)
         {
@@ -30,13 +30,7 @@ namespace snakeee
             do
             {
                 Console.Clear();
-                //Console.Title = "my little snakeee";
-                //Console.CursorVisible = false;
-                //Console.Clear();
                 score = 0;
-                //Console.SetBufferSize(80, 25);//устанавнивание размеры консоли
-
-                //mainMenu();
                
 
                 //отрисовка рамочки
@@ -73,9 +67,6 @@ namespace snakeee
                 Console.SetCursorPosition(63, 0);
                 Console.Write(currentRecord);
 
-                ////отрисовка cлова
-                //GraphSymbol graphSymbol = new GraphSymbol(5,5,6);
-                //graphSymbol.Draw();
 
                 //создание змейки
                 Point p = new Point(4, 4, '*');//начальная точка змейки
@@ -122,7 +113,7 @@ namespace snakeee
                         Console.SetCursorPosition(32, 10);
                         Console.Write("Game over!");
                         Console.SetCursorPosition(32, 11);
-                        Console.Write("Продолжить? (Enter)");
+                        Console.Write("Continue? (Enter)");
                         key_enter = Console.ReadKey();
                         Console.WriteLine();
                         break;
@@ -195,8 +186,11 @@ namespace snakeee
                     code = menu.MenuPointer(menuKey);
                 }
 
-            if (code == 2 || code == 1)
+
+            if (code == 1)
                 speed = 60;
+            if (code == 2)
+                mainMenu();
             if (code == 3)
                 speed = 30;
                  

@@ -30,11 +30,5 @@ namespace snakeee
                 }
             }
         }
-
-        //public override void DrawLine()
-        //{
-        //    base.DrawLine();
-        //}
-
     }
 }

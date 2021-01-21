@@ -23,10 +23,8 @@ namespace snakeee
             wallList.Add(horLineTop);
             wallList.Add(horLineBottom);
             wallList.Add(vertLineTop);
-           // wallList.Add(vertLineTop_);
             wallList.Add(vertLineBottom);
             wallList.Add(vertLineBottom_);
-           // wallList.Add(vertLinePortalLeft);
         }
 
         public Walls(int axisX_1, int axisX_2, int axisY_1, int axisY_2,  char c)

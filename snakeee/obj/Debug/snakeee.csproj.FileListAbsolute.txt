@@ -10,3 +10,9 @@ C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.pdb
 C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.exe
 C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.pdb
 C:\Users\Таня\Desktop\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.csprojResolveAssemblyReference.cache
+C:\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.exe.config
+C:\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.exe
+C:\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.pdb
+C:\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.exe
+C:\Portfolio\C#\snakeee\snakeee\bin\Debug\snakeee.pdb
+C:\Portfolio\C#\snakeee\snakeee\obj\Debug\snakeee.csprojResolveAssemblyReference.cache

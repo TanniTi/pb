@@ -87,10 +87,10 @@ namespace snakeee
                             for (; ; )
                             {
                                 Console.Clear();
-                                Console.SetCursorPosition(52, 21);
-                                Console.Write("Press '->' for choose speed");
+                                Console.SetCursorPosition(53, 21);
+                                Console.Write("Press '->' to select speed");
                                 Console.SetCursorPosition(53, 23);
-                                Console.Write("Press 'Enter' for playing!");
+                                Console.Write("Press 'Enter' to play!");
                                 Console.SetCursorPosition(38, 7);
                                 Console.Write(screen_str);
 
@@ -100,7 +100,6 @@ namespace snakeee
                                     case ConsoleKey.Enter:
                                         Console.Clear();
                                         return speed_level;
-                                        //Program.mainMenu();
 
                                     case ConsoleKey.RightArrow:
                                         if (screen_str == str1)
@@ -117,42 +116,6 @@ namespace snakeee
                                         break;
                                 }
                             }
-                            //bool f = false;
-
-                            //do
-                            //{
-                            //    if (menuKey.Key == ConsoleKey.Enter)
-                            //    {
-                            //        Console.Clear();
-                            //        Console.SetCursorPosition(57, 23);
-                            //        Console.Write("Press 'Esc' for return");
-
-                            //        Console.SetCursorPosition(38, 7);
-                            //        if (screen_str == str1)
-                            //        {
-                            //            screen_str = str2;
-                            //            Console.Write(screen_str);
-                            //            //q = 3;
-                            //            ConsoleKeyInfo menuKey2;
-
-                            //            menuKey2 = Console.ReadKey();
-                            //            if (menuKey2.Key == ConsoleKey.Escape)
-                            //                return 3;
-                            //            else
-                            //                break;
-                            //            //break;
-                            //        }
-
-                            //        if (screen_str == str2)
-                            //        {
-                            //            screen_str = str1;
-                            //            Console.Write(screen_str);
-                            //            q = 3;
-                            //            // break;
-                            //        }
-                            //    }
-
-                            //} while (!f);
                             
                             
                         }
@@ -178,13 +141,7 @@ namespace snakeee
                         } while (myKey.Key != ConsoleKey.Escape);
                        
                             Console.Clear();
-                            Program.mainMenu();
-
-                        //if (myKey.Key == ConsoleKey.Escape)
-                        //{
-                        //    Console.Clear();
-                        //    Program.mainMenu();
-                        //}
+                            return 2;
                             
                         
                     }
